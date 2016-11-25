@@ -1,5 +1,4 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
 using Domain.Interfaces;
 using Domain.Preconditions;
 using Xunit;

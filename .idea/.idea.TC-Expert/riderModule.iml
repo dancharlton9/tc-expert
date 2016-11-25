@@ -4,7 +4,10 @@
     <content url="file://$MODULE_DIR$/../..">
       <sourceFolder url="file://$MODULE_DIR$/../../Domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Domain.Services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../Domain.Services.Tests" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../../Domain.Tests" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Domain.Services.Tests/bin" />
+      <excludeFolder url="file://$MODULE_DIR$/../../Domain.Services.Tests/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../Domain.Services/bin" />
       <excludeFolder url="file://$MODULE_DIR$/../../Domain.Services/obj" />
       <excludeFolder url="file://$MODULE_DIR$/../../Domain.Tests/bin" />

@@ -14,12 +14,15 @@ namespace Domain
 
         public void AddFact(Fact fact)
         {
-            throw new NotImplementedException();
+            if (fact == null) throw new ArgumentException("Fact should not be null.");
+            Facts.Add(fact);
         }
 
         public void RemoveFact(Fact fact)
         {
-            throw new NotImplementedException();
+            if (fact == null) throw new ArgumentException("Fact should not be null.");
+            if (!Facts.Contains(fact)) throw new ArgumentException("Fact should already be in the collection.");
+            Facts.Remove(fact);
         }
 
         public class Builder

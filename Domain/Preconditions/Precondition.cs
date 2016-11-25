@@ -8,7 +8,7 @@ namespace Domain.Preconditions
     {
         public Fact Fact { get; private set; }
 
-        public virtual void SetFact(Fact fact)
+        public void SetFact(Fact fact)
         {
             if (fact == null) throw new ArgumentException("Passed fact should not be null.");
             Fact = fact;
