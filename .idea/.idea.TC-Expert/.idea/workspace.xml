@@ -66,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InferenceEngineTests.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InferenceEngineTests.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../Domain.Services.Tests/InferenceEngineTests.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1175">
@@ -93,6 +93,21 @@
                 <marker date="1480352897000" expanded="true" signature="4664:4905" ph="{...}" />
                 <marker date="1480352897000" expanded="true" signature="4803:4858" ph="{...}" />
                 <marker date="1480352897000" expanded="true" signature="4967:5450" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuleResolverService.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Services/RuleResolverService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <marker date="1480012758000" expanded="true" signature="6:67" ph="..." />
+                <marker date="1480012758000" expanded="true" signature="94:298" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="156:296" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="214:290" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -447,12 +462,12 @@
       <workItem from="1479984590790" duration="6092000" />
       <workItem from="1479992180077" duration="30000" />
       <workItem from="1479992428898" duration="7735000" />
-      <workItem from="1480012795802" duration="7649000" />
+      <workItem from="1480012795802" duration="8631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21506000" />
+    <option name="totallyTimeSpent" value="22488000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,19 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Services/RuleResolverService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1480012758000" expanded="true" signature="6:67" ph="..." />
-            <marker date="1480012758000" expanded="true" signature="94:298" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="156:296" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="214:290" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Domain.Services/RuleMatcherService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1250,6 +1252,19 @@
             <marker date="1480352897000" expanded="true" signature="4664:4905" ph="{...}" />
             <marker date="1480352897000" expanded="true" signature="4803:4858" ph="{...}" />
             <marker date="1480352897000" expanded="true" signature="4967:5450" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Services/RuleResolverService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="6:67" ph="..." />
+            <marker date="1480012758000" expanded="true" signature="94:298" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="156:296" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="214:290" ph="{...}" />
           </folding>
         </state>
       </provider>

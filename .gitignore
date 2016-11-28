@@ -263,6 +263,7 @@ paket-files/
 # JetBrains Rider
 .idea/
 *.sln.iml
+workspace.xml
 
 # CodeRush
 .cr/
@@ -273,3 +274,6 @@ __pycache__/
 
 # Cake - Uncomment if you are using it
 # tools/
+
+# mac
+.DS_Store
