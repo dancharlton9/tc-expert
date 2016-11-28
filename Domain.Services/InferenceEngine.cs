@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Domain.Services.Interfaces;
 
 namespace Domain.Services
@@ -12,7 +13,7 @@ namespace Domain.Services
         private WorkingMemory _workingMemory;
         private RuleBase _ruleBase;
 
-        public InferenceEngine(WorkingMemory workingMemory, RuleBase ruleBase)
+        protected InferenceEngine(WorkingMemory workingMemory, RuleBase ruleBase)
         {
             _workingMemory = workingMemory;
             _ruleBase = ruleBase;
@@ -22,9 +23,31 @@ namespace Domain.Services
             _executer = new RuleExecuterService();
         }
 
-        public void Match()
+        public void SetWorkingMemory(WorkingMemory workingMemory)
         {
-            throw new NotImplementedException();
+            if (workingMemory == null) throw new ArgumentException("Working memory should not be null.");
+            _workingMemory = workingMemory;
+        }
+
+        public void SetRuleBase(RuleBase ruleBase)
+        {
+            if (ruleBase == null) throw new ArgumentException("Rule base should not be null.");
+            _ruleBase = ruleBase;
+        }
+
+        public WorkingMemory GetWorkingMemory()
+        {
+            return _workingMemory;
+        }
+
+        public RuleBase GetRuleBase()
+        {
+            return _ruleBase;
+        }
+
+        public List<Rule> Match()
+        {
+            return _matcher.Match(_workingMemory, _ruleBase);
         }
 
         public void Resolve()
@@ -35,6 +58,35 @@ namespace Domain.Services
         public void Execute()
         {
             throw new NotImplementedException();
+        }
+
+        public class Builder
+        {
+            private readonly InferenceEngine _engine;
+
+            public Builder()
+            {
+                var workingMemory = new WorkingMemory.Builder().Build();
+                var ruleBase = new RuleBase.Builder().Build();
+                _engine = new InferenceEngine(workingMemory, ruleBase);
+            }
+
+            public Builder WithWorkingMemory(WorkingMemory workingMemory)
+            {
+                _engine.SetWorkingMemory(workingMemory);
+                return this;
+            }
+
+            public Builder WithRuleBase(RuleBase ruleBase)
+            {
+                _engine.SetRuleBase(ruleBase);
+                return this;
+            }
+
+            public InferenceEngine Build()
+            {
+                return _engine;
+            }
         }
     }
 }

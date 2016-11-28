@@ -21,36 +21,208 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RuleMatcherServiceTests.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../Domain.Services.Tests/RuleMatcherServiceTests.cs">
+      <file leaf-file-name="ContainsPreconditionTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Tests/ContainsPreconditionTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="-895">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1480014322000" expanded="true" signature="6:26" ph="..." />
-                <marker date="1480014322000" expanded="true" signature="59:1154" ph="{...}" />
-                <marker date="1480014322000" expanded="true" signature="116:1152" ph="{...}" />
-                <marker date="1480014322000" expanded="true" signature="291:458" ph="{...}" />
-                <marker date="1480014322000" expanded="true" signature="489:656" ph="{...}" />
-                <marker date="1480014322000" expanded="true" signature="739:801" ph="{...}" />
-                <marker date="1480014322000" expanded="true" signature="762:791" ph="/* act ... */" />
-                <marker date="1480014322000" expanded="true" signature="853:961" ph="{...}" />
-                <marker date="1480014322000" expanded="true" signature="1023:1146" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="6:137" ph="..." />
+                <marker date="1480012758000" expanded="true" signature="161:2376" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="261:2374" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="445:640" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="671:816" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="879:976" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1057:1217" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1319:1806" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1459:1516" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1564:1621" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1916:2368" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1996:2065" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="2113:2182" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuleMatcherService.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Domain.Services/RuleMatcherService.cs">
+      <file leaf-file-name="WorkingMemoryTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Tests/WorkingMemoryTests.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1480012758000" expanded="true" signature="6:86" ph="..." />
-                <marker date="1480012758000" expanded="true" signature="113:476" ph="{...}" />
-                <marker date="1480012758000" expanded="true" signature="173:474" ph="{...}" />
-                <marker date="1480012758000" expanded="true" signature="259:468" ph="{...}" />
+                <marker date="1480013305000" expanded="true" signature="6:26" ph="..." />
+                <marker date="1480013305000" expanded="true" signature="50:1665" ph="{...}" />
+                <marker date="1480013305000" expanded="true" signature="102:1663" ph="{...}" />
+                <marker date="1480013305000" expanded="true" signature="191:277" ph="{...}" />
+                <marker date="1480013305000" expanded="true" signature="308:394" ph="{...}" />
+                <marker date="1480013305000" expanded="true" signature="482:702" ph="{...}" />
+                <marker date="1480013305000" expanded="true" signature="781:883" ph="{...}" />
+                <marker date="1480013305000" expanded="true" signature="979:1250" ph="{...}" />
+                <marker date="1480013305000" expanded="true" signature="1332:1437" ph="{...}" />
+                <marker date="1480013305000" expanded="true" signature="1546:1657" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InferenceEngineTests.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Services.Tests/InferenceEngineTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1175">
+              <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+              <folding>
+                <marker date="1480352897000" expanded="true" signature="6:88" ph="..." />
+                <marker date="1480352897000" expanded="true" signature="121:5458" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="175:5456" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="261:342" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="373:454" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="554:831" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="945:1049" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="1139:1386" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="1490:1589" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="1684:1862" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="1971:2325" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="2424:2748" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="2854:3029" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="3124:3284" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="3364:3537" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="3387:3417" ph="/* arrange ... */" />
+                <marker date="1480352897000" expanded="true" signature="3627:4075" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="4172:4612" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="4664:4905" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="4803:4858" ph="{...}" />
+                <marker date="1480352897000" expanded="true" signature="4967:5450" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InferenceEngine.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Services/InferenceEngine.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+              <folding>
+                <marker date="1480352443000" expanded="true" signature="6:81" ph="..." />
+                <marker date="1480352443000" expanded="true" signature="108:2491" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="143:2489" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="457:707" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="774:944" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="996:1146" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="1195:1250" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="1289:1339" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="1487:1556" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="2091:2205" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="2265:2369" ph="{...}" />
+                <marker date="1480352443000" expanded="true" signature="2413:2473" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuleTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Tests/RuleTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1750">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1480012758000" expanded="true" signature="6:112" ph="..." />
+                <marker date="1480012758000" expanded="true" signature="136:4301" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="179:4299" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="340:480" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="511:563" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="684:972" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1074:1175" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1304:1650" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1755:1859" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1995:2242" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="2333:2589" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="2716:2964" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="3094:3347" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="3398:3633" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="3460:3596" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="3505:3582" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="3694:3958" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="3850:3913" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="4023:4293" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="4185:4248" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuleBaseTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Tests/RuleBaseTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-535">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1480012758000" expanded="true" signature="6:26" ph="..." />
+                <marker date="1480012758000" expanded="true" signature="50:1621" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="97:1619" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="171:247" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="278:354" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="451:661" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="747:844" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="949:1205" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1294:1394" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1506:1612" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoesNotContainPreconditionTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Tests/DoesNotContainPreconditionTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-910">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1480012758000" expanded="true" signature="6:137" ph="..." />
+                <marker date="1480012758000" expanded="true" signature="161:2413" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="273:2411" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="463:664" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="695:846" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="909:1012" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1093:1253" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1355:1806" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1435:1504" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1552:1621" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="1916:2405" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="2057:2114" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="2162:2219" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FactTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Tests/FactTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1480012758000" expanded="true" signature="37:242" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="80:240" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="113:134" ph="{...}" />
+                <marker date="1480012758000" expanded="true" signature="165:234" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreconditionTests.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../Domain.Tests/PreconditionTests.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1480013396000" expanded="true" signature="6:79" ph="..." />
+                <marker date="1480013396000" expanded="true" signature="103:877" ph="{...}" />
+                <marker date="1480013396000" expanded="true" signature="175:875" ph="{...}" />
+                <marker date="1480013396000" expanded="true" signature="319:584" ph="{...}" />
+                <marker date="1480013396000" expanded="true" signature="670:869" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -71,12 +243,10 @@
         <option value="$PROJECT_DIR$/../../Domain.Services/Interfaces/IRuleExecuter.cs" />
         <option value="$PROJECT_DIR$/../../Domain.Services/Interfaces/IRuleMatcher.cs" />
         <option value="$PROJECT_DIR$/../../Domain.Services/Interfaces/IRuleResolver.cs" />
-        <option value="$PROJECT_DIR$/../../Domain.Services/InferenceEngine.cs" />
         <option value="$PROJECT_DIR$/../../Domain.Services/RuleMatcherService.cs" />
         <option value="$PROJECT_DIR$/../../Domain.Tests/project.json" />
         <option value="$PROJECT_DIR$/../../Domain.Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/../../Domain.Tests/FactTests.cs" />
-        <option value="$PROJECT_DIR$/../../Domain/Rule.cs" />
         <option value="$PROJECT_DIR$/../../Domain/Factories/PreconditionFactor.cs" />
         <option value="$PROJECT_DIR$/../../Domain/Interfaces/IPrecondition.cs" />
         <option value="$PROJECT_DIR$/../../Domain.Tests/ContainsPreconditionTests.cs" />
@@ -97,8 +267,11 @@
         <option value="$PROJECT_DIR$/../../Domain.Services.Tests/Tests.cs" />
         <option value="$PROJECT_DIR$/../../Domain.Services.Tests/RuleExecuterServiceTests.cs" />
         <option value="$PROJECT_DIR$/../../Domain.Services.Tests/RuleResolverServiceTests.cs" />
-        <option value="$PROJECT_DIR$/../../Domain.Services.Tests/InferenceEngineTests.cs" />
         <option value="$PROJECT_DIR$/../../Domain.Services.Tests/RuleMatcherServiceTests.cs" />
+        <option value="$PROJECT_DIR$/../../Domain/Rule.cs" />
+        <option value="$PROJECT_DIR$/../../Domain.Tests/InferenceEngineTests.cs" />
+        <option value="$PROJECT_DIR$/../../Domain.Services/InferenceEngine.cs" />
+        <option value="$PROJECT_DIR$/../../Domain.Services.Tests/InferenceEngineTests.cs" />
       </list>
     </option>
   </component>
@@ -144,6 +317,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Domain.Tests" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -270,12 +447,12 @@
       <workItem from="1479984590790" duration="6092000" />
       <workItem from="1479992180077" duration="30000" />
       <workItem from="1479992428898" duration="7735000" />
-      <workItem from="1480012795802" duration="1574000" />
+      <workItem from="1480012795802" duration="7649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15431000" />
+    <option name="totallyTimeSpent" value="21506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -318,27 +495,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/../../Domain.Services/InferenceEngine.cs</url>
+          <line>49</line>
+          <properties startOffset="1397" endOffset="1446" documentPath="$PROJECT_DIR$/../../Domain.Services/InferenceEngine.cs" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../Domain/Rule.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1480012758000" expanded="true" signature="6:94" ph="..." />
-            <marker date="1480012758000" expanded="true" signature="112:1038" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="136:1036" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="235:309" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="373:541" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="608:865" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="926:1030" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Domain/RuleBase.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -377,6 +546,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1480352443000" expanded="true" signature="6:81" ph="..." />
+            <marker date="1480352443000" expanded="true" signature="108:2491" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="143:2489" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="457:707" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="774:944" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="996:1146" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="1195:1250" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="1289:1339" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="1487:1556" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="2091:2205" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="2265:2369" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="2413:2473" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -475,13 +658,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1480012758000" expanded="true" signature="6:94" ph="..." />
-            <marker date="1480012758000" expanded="true" signature="112:1038" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="136:1036" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="235:309" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="373:541" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="608:865" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="926:1030" ph="{...}" />
+            <marker date="1480348809000" expanded="true" signature="6:94" ph="..." />
+            <marker date="1480348809000" expanded="true" signature="235:309" ph="{...}" />
+            <marker date="1480348809000" expanded="true" signature="373:541" ph="{...}" />
+            <marker date="1480348809000" expanded="true" signature="608:865" ph="{...}" />
+            <marker date="1480348809000" expanded="true" signature="926:1030" ph="{...}" />
+            <marker date="1480348809000" expanded="true" signature="1157:1215" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -524,6 +706,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1480352443000" expanded="true" signature="6:81" ph="..." />
+            <marker date="1480352443000" expanded="true" signature="108:2491" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="143:2489" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="457:707" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="774:944" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="996:1146" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="1195:1250" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="1289:1339" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="1487:1556" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="2091:2205" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="2265:2369" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="2413:2473" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -612,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Services/RuleResolverService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Domain.Services/Interfaces/IRuleExecuterService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
@@ -637,13 +826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Services/InferenceEngine.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -669,116 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/FactTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/RuleBaseTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/DoesNotContainPreconditionTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="16" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/RuleTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain/WorkingMemory.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-          <folding>
-            <marker date="1480013194000" expanded="true" signature="6:47" ph="..." />
-            <marker date="1480013194000" expanded="true" signature="65:970" ph="{...}" />
-            <marker date="1480013194000" expanded="true" signature="98:968" ph="{...}" />
-            <marker date="1480013194000" expanded="true" signature="193:251" ph="{...}" />
-            <marker date="1480013194000" expanded="true" signature="291:427" ph="{...}" />
-            <marker date="1480013194000" expanded="true" signature="470:722" ph="{...}" />
-            <marker date="1480013194000" expanded="true" signature="752:962" ph="{...}" />
-            <marker date="1480013194000" expanded="true" signature="885:952" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/WorkingMemoryTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="49" column="62" selection-start-line="49" selection-start-column="62" selection-end-line="49" selection-end-column="62" />
-          <folding>
-            <marker date="1480013305000" expanded="true" signature="6:26" ph="..." />
-            <marker date="1480013305000" expanded="true" signature="50:1665" ph="{...}" />
-            <marker date="1480013305000" expanded="true" signature="102:1663" ph="{...}" />
-            <marker date="1480013305000" expanded="true" signature="191:277" ph="{...}" />
-            <marker date="1480013305000" expanded="true" signature="308:394" ph="{...}" />
-            <marker date="1480013305000" expanded="true" signature="482:702" ph="{...}" />
-            <marker date="1480013305000" expanded="true" signature="781:883" ph="{...}" />
-            <marker date="1480013305000" expanded="true" signature="979:1250" ph="{...}" />
-            <marker date="1480013305000" expanded="true" signature="1332:1437" ph="{...}" />
-            <marker date="1480013305000" expanded="true" signature="1546:1657" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain/RuleBase.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1480012758000" expanded="true" signature="6:47" ph="..." />
-            <marker date="1480012758000" expanded="true" signature="65:943" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="93:941" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="183:241" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="281:417" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="460:720" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="750:935" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="863:925" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain/Rule.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1480012758000" expanded="true" signature="6:94" ph="..." />
-            <marker date="1480012758000" expanded="true" signature="112:1038" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="136:1036" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="235:309" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="373:541" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="608:865" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="926:1030" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain/Fact.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1480012758000" expanded="true" signature="16:100" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="40:98" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Domain/Preconditions/DoesNotContainPrecondition.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -796,37 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain/Preconditions/ContainsPrecondition.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1480012758000" expanded="true" signature="6:52" ph="..." />
-            <marker date="1480012758000" expanded="true" signature="84:821" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="139:819" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="186:207" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="264:404" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="434:813" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="586:688" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="737:803" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/PreconditionTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding>
-            <marker date="1480013396000" expanded="true" signature="6:79" ph="..." />
-            <marker date="1480013396000" expanded="true" signature="103:877" ph="{...}" />
-            <marker date="1480013396000" expanded="true" signature="175:875" ph="{...}" />
-            <marker date="1480013396000" expanded="true" signature="319:584" ph="{...}" />
-            <marker date="1480013396000" expanded="true" signature="670:869" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Domain/Preconditions/Precondition.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -836,28 +877,6 @@
             <marker date="1480013553000" expanded="true" signature="104:459" ph="{...}" />
             <marker date="1480013553000" expanded="true" signature="161:457" ph="{...}" />
             <marker date="1480013553000" expanded="true" signature="254:393" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/ContainsPreconditionTests.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-760">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <marker date="1480012758000" expanded="true" signature="6:137" ph="..." />
-            <marker date="1480012758000" expanded="true" signature="161:2376" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="261:2374" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="445:640" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="671:816" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="879:976" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="1057:1217" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="1319:1806" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="1459:1516" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="1564:1621" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="1916:2368" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="1996:2065" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="2113:2182" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -875,19 +894,6 @@
             <marker date="1480013713000" expanded="true" signature="351:464" ph="{...}" />
             <marker date="1480013713000" expanded="true" signature="386:456" ph="{...}" />
             <marker date="1480013713000" expanded="true" signature="483:544" ph="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Services/RuleExecuterService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-          <folding>
-            <marker date="1480012758000" expanded="true" signature="6:67" ph="..." />
-            <marker date="1480012758000" expanded="true" signature="94:321" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="156:319" ph="{...}" />
-            <marker date="1480012758000" expanded="true" signature="237:313" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -917,14 +923,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Services.Tests/InferenceEngineTests.cs">
+    <entry file="file://$PROJECT_DIR$/../../Domain.Services.Tests/RuleMatcherServiceTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="465">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <marker date="1480013922000" expanded="true" signature="45:193" ph="{...}" />
-            <marker date="1480013922000" expanded="true" signature="85:191" ph="{...}" />
-            <marker date="1480013922000" expanded="true" signature="134:185" ph="{...}" />
+            <marker date="1480014322000" expanded="true" signature="6:26" ph="..." />
+            <marker date="1480014322000" expanded="true" signature="59:1154" ph="{...}" />
+            <marker date="1480014322000" expanded="true" signature="116:1152" ph="{...}" />
+            <marker date="1480014322000" expanded="true" signature="291:458" ph="{...}" />
+            <marker date="1480014322000" expanded="true" signature="489:656" ph="{...}" />
+            <marker date="1480014322000" expanded="true" signature="739:801" ph="{...}" />
+            <marker date="1480014322000" expanded="true" signature="762:791" ph="/* act ... */" />
+            <marker date="1480014322000" expanded="true" signature="853:961" ph="{...}" />
+            <marker date="1480014322000" expanded="true" signature="1023:1146" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Services/RuleExecuterService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="6:67" ph="..." />
+            <marker date="1480012758000" expanded="true" signature="94:321" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="156:319" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="237:313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Services/RuleResolverService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="6:67" ph="..." />
+            <marker date="1480012758000" expanded="true" signature="94:298" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="156:296" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="214:290" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -942,20 +980,276 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../Domain.Services.Tests/RuleMatcherServiceTests.cs">
+    <entry file="file://$PROJECT_DIR$/../../Domain/Fact.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1480014322000" expanded="true" signature="6:26" ph="..." />
-            <marker date="1480014322000" expanded="true" signature="59:1154" ph="{...}" />
-            <marker date="1480014322000" expanded="true" signature="116:1152" ph="{...}" />
-            <marker date="1480014322000" expanded="true" signature="291:458" ph="{...}" />
-            <marker date="1480014322000" expanded="true" signature="489:656" ph="{...}" />
-            <marker date="1480014322000" expanded="true" signature="739:801" ph="{...}" />
-            <marker date="1480014322000" expanded="true" signature="762:791" ph="/* act ... */" />
-            <marker date="1480014322000" expanded="true" signature="853:961" ph="{...}" />
-            <marker date="1480014322000" expanded="true" signature="1023:1146" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="16:100" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="40:98" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain/Preconditions/ContainsPrecondition.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="6:52" ph="..." />
+            <marker date="1480012758000" expanded="true" signature="84:821" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="139:819" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="186:207" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="264:404" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="434:813" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="586:688" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="737:803" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain/Rule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="36" column="37" selection-start-line="36" selection-start-column="37" selection-end-line="36" selection-end-column="37" />
+          <folding>
+            <marker date="1480348809000" expanded="true" signature="6:94" ph="..." />
+            <marker date="1480348809000" expanded="true" signature="235:309" ph="{...}" />
+            <marker date="1480348809000" expanded="true" signature="373:541" ph="{...}" />
+            <marker date="1480348809000" expanded="true" signature="608:865" ph="{...}" />
+            <marker date="1480348809000" expanded="true" signature="926:1030" ph="{...}" />
+            <marker date="1480348809000" expanded="true" signature="1157:1215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain/RuleBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="6:47" ph="..." />
+            <marker date="1480012758000" expanded="true" signature="65:943" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="93:941" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="183:241" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="281:417" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="460:720" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="750:935" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="863:925" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain/WorkingMemory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480013194000" expanded="true" signature="6:47" ph="..." />
+            <marker date="1480013194000" expanded="true" signature="65:970" ph="{...}" />
+            <marker date="1480013194000" expanded="true" signature="98:968" ph="{...}" />
+            <marker date="1480013194000" expanded="true" signature="193:251" ph="{...}" />
+            <marker date="1480013194000" expanded="true" signature="291:427" ph="{...}" />
+            <marker date="1480013194000" expanded="true" signature="470:722" ph="{...}" />
+            <marker date="1480013194000" expanded="true" signature="752:962" ph="{...}" />
+            <marker date="1480013194000" expanded="true" signature="885:952" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/ContainsPreconditionTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-895">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="6:137" ph="..." />
+            <marker date="1480012758000" expanded="true" signature="161:2376" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="261:2374" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="445:640" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="671:816" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="879:976" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1057:1217" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1319:1806" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1459:1516" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1564:1621" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1916:2368" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1996:2065" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="2113:2182" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/DoesNotContainPreconditionTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-910">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="6:137" ph="..." />
+            <marker date="1480012758000" expanded="true" signature="161:2413" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="273:2411" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="463:664" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="695:846" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="909:1012" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1093:1253" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1355:1806" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1435:1504" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1552:1621" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1916:2405" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="2057:2114" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="2162:2219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/FactTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="37:242" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="80:240" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="113:134" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="165:234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/PreconditionTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480013396000" expanded="true" signature="6:79" ph="..." />
+            <marker date="1480013396000" expanded="true" signature="103:877" ph="{...}" />
+            <marker date="1480013396000" expanded="true" signature="175:875" ph="{...}" />
+            <marker date="1480013396000" expanded="true" signature="319:584" ph="{...}" />
+            <marker date="1480013396000" expanded="true" signature="670:869" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/RuleTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1750">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="6:112" ph="..." />
+            <marker date="1480012758000" expanded="true" signature="136:4301" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="179:4299" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="340:480" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="511:563" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="684:972" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1074:1175" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1304:1650" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1755:1859" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1995:2242" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="2333:2589" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="2716:2964" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="3094:3347" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="3398:3633" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="3460:3596" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="3505:3582" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="3694:3958" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="3850:3913" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="4023:4293" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="4185:4248" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/RuleBaseTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-535">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480012758000" expanded="true" signature="6:26" ph="..." />
+            <marker date="1480012758000" expanded="true" signature="50:1621" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="97:1619" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="171:247" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="278:354" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="451:661" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="747:844" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="949:1205" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1294:1394" ph="{...}" />
+            <marker date="1480012758000" expanded="true" signature="1506:1612" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/WorkingMemoryTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1480013305000" expanded="true" signature="6:26" ph="..." />
+            <marker date="1480013305000" expanded="true" signature="50:1665" ph="{...}" />
+            <marker date="1480013305000" expanded="true" signature="102:1663" ph="{...}" />
+            <marker date="1480013305000" expanded="true" signature="191:277" ph="{...}" />
+            <marker date="1480013305000" expanded="true" signature="308:394" ph="{...}" />
+            <marker date="1480013305000" expanded="true" signature="482:702" ph="{...}" />
+            <marker date="1480013305000" expanded="true" signature="781:883" ph="{...}" />
+            <marker date="1480013305000" expanded="true" signature="979:1250" ph="{...}" />
+            <marker date="1480013305000" expanded="true" signature="1332:1437" ph="{...}" />
+            <marker date="1480013305000" expanded="true" signature="1546:1657" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Tests/InferenceEngineTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Services/InferenceEngine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding>
+            <marker date="1480352443000" expanded="true" signature="6:81" ph="..." />
+            <marker date="1480352443000" expanded="true" signature="108:2491" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="143:2489" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="457:707" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="774:944" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="996:1146" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="1195:1250" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="1289:1339" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="1487:1556" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="2091:2205" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="2265:2369" ph="{...}" />
+            <marker date="1480352443000" expanded="true" signature="2413:2473" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Domain.Services.Tests/InferenceEngineTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="186" column="0" selection-start-line="186" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding>
+            <marker date="1480352897000" expanded="true" signature="6:88" ph="..." />
+            <marker date="1480352897000" expanded="true" signature="121:5458" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="175:5456" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="261:342" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="373:454" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="554:831" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="945:1049" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="1139:1386" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="1490:1589" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="1684:1862" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="1971:2325" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="2424:2748" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="2854:3029" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="3124:3284" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="3364:3537" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="3387:3417" ph="/* arrange ... */" />
+            <marker date="1480352897000" expanded="true" signature="3627:4075" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="4172:4612" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="4664:4905" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="4803:4858" ph="{...}" />
+            <marker date="1480352897000" expanded="true" signature="4967:5450" ph="{...}" />
           </folding>
         </state>
       </provider>

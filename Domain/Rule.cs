@@ -31,5 +31,15 @@ namespace Domain
         {
             return Preconditions.All(precondition => precondition.Evaluate(facts));
         }
+
+        public class Builder
+        {
+            private readonly Rule _rule = new Rule();
+
+            public Rule Build()
+            {
+                return _rule;
+            }
+        }
     }
 }
