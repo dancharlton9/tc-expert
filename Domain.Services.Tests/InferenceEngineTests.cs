@@ -166,6 +166,37 @@ namespace Domain.Services.Tests
             Assert.Equal(0, rules.Count);
         }
 
+        [Fact]
+        public void Resolve_method_should_return_a_list_of_Rule()
+        {
+            // act
+            var rules = _engine.Resolve(new List<Rule>());
+
+            // assert
+            Assert.IsType<List<Rule>>(rules);
+        }
+
+        [Fact]
+        public void Resolve_method_should_return_a_list_of_all_passed_rule()
+        {
+            // arrange
+            var workingMemory = SeedWorkingMemory();
+            var ruleBase = SeedRuleBase();
+            var engine = new InferenceEngine.Builder()
+                .WithWorkingMemory(workingMemory)
+                .WithRuleBase(ruleBase)
+                .Build();
+            var rules = engine.Match();
+            var matchCount = rules.Count;
+
+            // act
+            var resolvedRules = engine.Resolve(rules);
+            var resolvedCount = resolvedRules.Count;
+
+            // assert
+            Assert.Equal(matchCount, resolvedCount);
+        }
+
 
         private WorkingMemory SeedWorkingMemory()
         {

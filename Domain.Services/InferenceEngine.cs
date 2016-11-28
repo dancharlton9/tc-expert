@@ -50,9 +50,9 @@ namespace Domain.Services
             return _matcher.Match(_workingMemory, _ruleBase);
         }
 
-        public void Resolve()
+        public List<Rule> Resolve(List<Rule> rules)
         {
-            throw new NotImplementedException();
+            return _resolver.Resolve(rules);
         }
 
         public void Execute()

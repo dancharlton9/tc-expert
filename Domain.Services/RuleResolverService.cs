@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Domain.Services.Interfaces;
 
 namespace Domain.Services
@@ -7,7 +9,7 @@ namespace Domain.Services
     {
         public List<Rule> Resolve(List<Rule> rules)
         {
-            throw new System.NotImplementedException();
+            return rules.OrderBy(x => Guid.NewGuid()).ToList();
         }
     }
 }
