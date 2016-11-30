@@ -112,6 +112,42 @@ namespace Domain.Tests
             Assert.False(result);
         }
 
+        [Fact]
+        public void AddAction_should_add_an_action_to_the_actions_collection()
+        {
+            Assert.True(false);
+        }
+
+        [Fact]
+        public void AddAction_should_throw_if_the_passed_action_is_null()
+        {
+            Assert.True(false);
+        }
+
+        [Fact]
+        public void RemoveAction_should_remove_an_action_from_the_actions_collection()
+        {
+            Assert.True(false);
+        }
+
+        [Fact]
+        public void RemoveAction_should_throw_if_the_action_is_not_in_the_actions_collections()
+        {
+            Assert.True(false);
+        }
+
+        [Fact]
+        public void RemoveAction_should_throw_if_the_action_is_null()
+        {
+            Assert.True(false);
+        }
+
+        [Fact]
+        public void ExecuteActions_should_execute_actions_in_the_actions_collection__against_a_list_of_facts()
+        {
+            Assert.True(false);
+        }
+
         private static List<Fact> GenerateFacts()
         {
             var facts = new List<Fact>

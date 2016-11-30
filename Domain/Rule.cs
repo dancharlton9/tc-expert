@@ -8,10 +8,12 @@ namespace Domain
     public class Rule
     {
         public List<Precondition> Preconditions { get; private set; }
+        public List<Action> Actions { get; private set; }
 
         public Rule()
         {
             Preconditions = new List<Precondition>();
+            Actions = new List<Action>();
         }
 
         public void AddPrecondition(Precondition precondition)
@@ -27,9 +29,27 @@ namespace Domain
             Preconditions.Remove(precondition);
         }
 
+        public void AddAction(Action action)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void RemoveAction(Action action)
+        {
+            throw new NotImplementedException();
+        }
+
         public bool EvaluatePreconditions(List<Fact> facts)
         {
             return Preconditions.All(precondition => precondition.Evaluate(facts));
+        }
+
+        public void ExecuteActions(List<Fact> facts)
+        {
+            foreach (var a in Actions)
+            {
+                a.Operation(facts, a.Fact);
+            }
         }
 
         public class Builder
