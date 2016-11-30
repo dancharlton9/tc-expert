@@ -26,9 +26,7 @@ namespace Domain.Services.Tests
         [Fact]
         public void Matcher_method_should_return_a_list_of_rules()
         {
-            // act
-
-            // assert
+            Assert.True(false);
         }
 
         private static RuleBase GenerateRuleBase()
