@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Domain.Actions;
 using Domain.Preconditions;
 
 namespace Domain
@@ -8,12 +9,12 @@ namespace Domain
     public class Rule
     {
         public List<Precondition> Preconditions { get; private set; }
-        public List<Action> Actions { get; private set; }
+        public List<RuleAction> Actions { get; private set; }
 
         public Rule()
         {
             Preconditions = new List<Precondition>();
-            Actions = new List<Action>();
+            Actions = new List<RuleAction>();
         }
 
         public void AddPrecondition(Precondition precondition)
@@ -29,12 +30,12 @@ namespace Domain
             Preconditions.Remove(precondition);
         }
 
-        public void AddAction(Action action)
+        public void AddAction(RuleAction ruleAction)
         {
             throw new NotImplementedException();
         }
 
-        public void RemoveAction(Action action)
+        public void RemoveAction(RuleAction ruleAction)
         {
             throw new NotImplementedException();
         }
@@ -48,7 +49,7 @@ namespace Domain
         {
             foreach (var a in Actions)
             {
-                a.Operation(facts, a.Fact);
+                a.Execute(facts);
             }
         }
 

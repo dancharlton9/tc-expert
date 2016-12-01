@@ -143,7 +143,7 @@ namespace Domain.Tests
         }
 
         [Fact]
-        public void ExecuteActions_should_execute_actions_in_the_actions_collection__against_a_list_of_facts()
+        public void ExecuteActions_should_execute_actions_in_the_actions_collection_against_a_list_of_facts()
         {
             Assert.True(false);
         }
