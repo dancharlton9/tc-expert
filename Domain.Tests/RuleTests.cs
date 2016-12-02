@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Domain.Actions;
 using Domain.Factories;
 using Domain.Preconditions;
 using Xunit;
@@ -115,36 +116,57 @@ namespace Domain.Tests
         [Fact]
         public void AddAction_should_add_an_action_to_the_actions_collection()
         {
-            Assert.True(false);
+            // arrange
+            var action = new AddRuleAction();
+
+            // act
+            _rule.AddRuleAction(action);
+
+            // assert
+            Assert.Contains(action, _rule.Actions);
         }
 
         [Fact]
         public void AddAction_should_throw_if_the_passed_action_is_null()
         {
-            Assert.True(false);
+            Assert.Throws<ArgumentException>(() => _rule.AddRuleAction(null));
         }
 
         [Fact]
         public void RemoveAction_should_remove_an_action_from_the_actions_collection()
         {
-            Assert.True(false);
+            // arrange
+            var action = new AddRuleAction();
+            _rule.AddRuleAction(action);
+
+            // act
+            _rule.RemoveRuleAction(action);
+
+            // assert
+            Assert.DoesNotContain(action, _rule.Actions);
         }
 
         [Fact]
         public void RemoveAction_should_throw_if_the_action_is_not_in_the_actions_collections()
         {
-            Assert.True(false);
+            Assert.Throws<ArgumentException>(() => _rule.RemoveRuleAction(new AddRuleAction()));
         }
 
         [Fact]
         public void RemoveAction_should_throw_if_the_action_is_null()
         {
-            Assert.True(false);
+            Assert.Throws<ArgumentException>(() => _rule.RemoveRuleAction(null));
         }
 
+        // TODO: Complete this test
         [Fact]
         public void ExecuteActions_should_execute_actions_in_the_actions_collection_against_a_list_of_facts()
         {
+            // arrange
+
+            // act
+
+            // assert
             Assert.True(false);
         }
 

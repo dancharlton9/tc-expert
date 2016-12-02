@@ -7,7 +7,15 @@ namespace Domain.Services
     {
         public void Execute(WorkingMemory workingMemory, List<Rule> rules)
         {
-            throw new System.NotImplementedException();
+            var facts = workingMemory.Facts;
+
+            foreach (var rule in rules)
+            {
+                foreach (var action in rule.Actions)
+                {
+                    action.Execute(facts);
+                }
+            }
         }
     }
 }

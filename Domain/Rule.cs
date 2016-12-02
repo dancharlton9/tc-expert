@@ -30,14 +30,18 @@ namespace Domain
             Preconditions.Remove(precondition);
         }
 
-        public void AddAction(RuleAction ruleAction)
+        public void AddRuleAction(RuleAction ruleAction)
         {
-            throw new NotImplementedException();
+            if (ruleAction == null) throw new ArgumentException("Rule action must not be null.");
+            Actions.Add(ruleAction);
         }
 
-        public void RemoveAction(RuleAction ruleAction)
+        public void RemoveRuleAction(RuleAction ruleAction)
         {
-            throw new NotImplementedException();
+            if (ruleAction == null) throw new ArgumentException("Rule action must not be null.");
+            if (!Actions.Contains(ruleAction))
+                throw new ArgumentException("Rule action must already be present in the collection.");
+            Actions.Remove(ruleAction);
         }
 
         public bool EvaluatePreconditions(List<Fact> facts)

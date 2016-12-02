@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using Domain.Actions;
 using Domain.Preconditions;
 using Xunit;
 
@@ -96,7 +98,6 @@ namespace Domain.Services.Tests
             // assert
             Assert.Equal(ruleBase, engine.GetRuleBase());
         }
-
 
         [Fact]
         public void GetWorkingMemory_method_should_return_an_instance_of_WorkingMemory()
@@ -197,6 +198,30 @@ namespace Domain.Services.Tests
             Assert.Equal(matchCount, resolvedCount);
         }
 
+        [Fact]
+        public void Execute_method_should_trigger_rule_actions_against_the_working_memory()
+        {
+            // arrange
+            var workingMemory = SeedWorkingMemory();
+            var ruleBase = SeedRuleBase();
+            var engine = new InferenceEngine.Builder()
+                .WithWorkingMemory(workingMemory)
+                .WithRuleBase(ruleBase)
+                .Build();
+            var rules = engine.Match();
+            var resolvedRules = engine.Resolve(rules);
+
+            // act
+            engine.Execute(resolvedRules);
+            var newFacts = workingMemory.Facts;
+            var potentialCSharp = newFacts.FirstOrDefault(x => x.Assertion == "Potential C# experience");
+            var potentialAngular = newFacts.FirstOrDefault(x => x.Assertion == "Potential Angular experience");
+
+            // assert
+            Assert.IsType<Fact>(potentialCSharp);
+            Assert.IsType<Fact>(potentialAngular);
+        }
+
 
         private WorkingMemory SeedWorkingMemory()
         {
@@ -204,7 +229,7 @@ namespace Domain.Services.Tests
 
             workingMemory.AddFact( new Fact()
             {
-                Assertion = "Has a dog"
+                Assertion = "Has .NET"
             });
 
             return workingMemory;
@@ -212,7 +237,7 @@ namespace Domain.Services.Tests
 
         private RuleBase SeedRuleBase(bool withMatch = true)
         {
-            var assertion = withMatch ? "has a dog" : "has a cat";
+            var assertion = withMatch ? "Has .NET" : "Has no .NET";
 
             var ruleBase = new RuleBase.Builder().Build();
 
@@ -222,6 +247,21 @@ namespace Domain.Services.Tests
                 .WithFact(fact)
                 .Build();
             rule.AddPrecondition(precondition);
+
+            var action1 = new AddRuleAction();
+            action1.SetFact(new Fact()
+            {
+                Assertion = "Potential C# experience"
+            });
+
+            var action2 = new AddRuleAction();
+            action2.SetFact(new Fact()
+            {
+                Assertion = "Potential Angular experience"
+            });
+
+            rule.AddRuleAction(action1);
+            rule.AddRuleAction(action2);
 
             ruleBase.AddRule(rule);
 

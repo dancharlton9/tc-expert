@@ -7,7 +7,8 @@ namespace Domain.Actions
         public override void Execute(List<Fact> facts)
         {
             if (Fact == null) throw new ActionMissingFactException("Actions must have facts set to be executed.");
-            facts.Add(Fact);
+            if(!facts.Contains(Fact))
+                facts.Add(Fact);
         }
     }
 }

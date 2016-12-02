@@ -6,9 +6,9 @@ namespace Domain.Services
 {
     public class InferenceEngine
     {
-        private IRuleMatcherService _matcher;
-        private IRuleResolverService _resolver;
-        private IRuleExecuterService _executer;
+        private readonly IRuleMatcherService _matcher;
+        private readonly IRuleResolverService _resolver;
+        private readonly IRuleExecuterService _executer;
 
         private WorkingMemory _workingMemory;
         private RuleBase _ruleBase;
@@ -55,9 +55,9 @@ namespace Domain.Services
             return _resolver.Resolve(rules);
         }
 
-        public void Execute()
+        public void Execute(List<Rule> rules)
         {
-            throw new NotImplementedException();
+            _executer.Execute(_workingMemory, rules);
         }
 
         public class Builder
