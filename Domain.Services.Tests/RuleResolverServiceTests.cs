@@ -42,10 +42,11 @@ namespace Domain.Services.Tests
             }
 
             // act
-            var result = _resolver.Resolve(rules).Count;
+            var selectedRules = _resolver.Resolve(rules);
+            var result = !selectedRules.Except(rules).Any();
 
             // assert
-            Assert.True(result == 5);
+            Assert.True(result);
         }
     }
 }
