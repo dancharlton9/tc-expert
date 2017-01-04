@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using Domain.Actions;
 using Domain.Factories;
 using Domain.Preconditions;
@@ -158,16 +159,26 @@ namespace Domain.Tests
             Assert.Throws<ArgumentException>(() => _rule.RemoveRuleAction(null));
         }
 
-        // TODO: Complete this test
         [Fact]
         public void ExecuteActions_should_execute_actions_in_the_actions_collection_against_a_list_of_facts()
         {
             // arrange
+            var assertion = Guid.NewGuid().ToString();
+            var newFact = new Fact()
+            {
+                Assertion = assertion
+            };
+            var action = new AddRuleAction();
+            action.SetFact(newFact);
+            _rule.AddRuleAction(action);
+            var facts = GenerateFacts();
 
             // act
+            _rule.ExecuteActions(facts);
+            var result = facts.FirstOrDefault(x => x.Assertion == assertion);
 
             // assert
-            Assert.True(false);
+            Assert.NotNull(result);
         }
 
         private static List<Fact> GenerateFacts()

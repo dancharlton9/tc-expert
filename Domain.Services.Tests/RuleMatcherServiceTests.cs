@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using Xunit;
 
 namespace Domain.Services.Tests
@@ -23,11 +24,16 @@ namespace Domain.Services.Tests
             _matcher = new RuleMatcherService();
         }
 
-        // TODO: Complete this test
         [Fact]
         public void Matcher_method_should_return_a_list_of_rules()
         {
-            Assert.True(false);
+            // arrange
+
+            // act
+            var result = _matcher.Match(_workingMemory, _ruleBase);
+
+            // assert
+            Assert.IsType<List<Rule>>(result);
         }
 
         private static RuleBase GenerateRuleBase()
