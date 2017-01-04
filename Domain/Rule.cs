@@ -61,7 +61,7 @@ namespace Domain
             MarkAsTriggered();
         }
 
-        private void MarkAsTriggered()
+        public void MarkAsTriggered()
         {
             Triggered = true;
         }
