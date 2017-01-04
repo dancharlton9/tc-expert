@@ -10,11 +10,13 @@ namespace Domain
     {
         public List<Precondition> Preconditions { get; private set; }
         public List<RuleAction> Actions { get; private set; }
+        public bool Triggered { get; private set; }
 
         public Rule()
         {
             Preconditions = new List<Precondition>();
             Actions = new List<RuleAction>();
+            Triggered = false;
         }
 
         public void AddPrecondition(Precondition precondition)
@@ -55,6 +57,13 @@ namespace Domain
             {
                 a.Execute(facts);
             }
+
+            MarkAsTriggered();
+        }
+
+        private void MarkAsTriggered()
+        {
+            Triggered = true;
         }
 
         public class Builder

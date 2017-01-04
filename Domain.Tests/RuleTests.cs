@@ -181,6 +181,27 @@ namespace Domain.Tests
             Assert.NotNull(result);
         }
 
+        [Fact]
+        public void ExecuteActions_should_mark_the_rule_as_triggered_once_complete()
+        {
+            // arrange
+            var assertion = Guid.NewGuid().ToString();
+            var newFact = new Fact()
+            {
+                Assertion = assertion
+            };
+            var action = new AddRuleAction();
+            action.SetFact(newFact);
+            _rule.AddRuleAction(action);
+            var facts = GenerateFacts();
+
+            // act
+            _rule.ExecuteActions(facts);
+
+            // assert
+            Assert.True(_rule.Triggered);
+        }
+
         private static List<Fact> GenerateFacts()
         {
             var facts = new List<Fact>
