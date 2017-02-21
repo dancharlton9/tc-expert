@@ -29,14 +29,14 @@ namespace Infrastructure
             Inserts.Add(entity);
         }
 
-        public abstract T GetById(Guid id);
+        public abstract void Delete(T entity);
 
-        public IList<T> Get()
+        public void SaveChanges()
         {
-            var query = Collection.Find(DefaultReadFilter).ToList();
-            return query;
+            throw new NotImplementedException();
         }
-
+    }
+}
         public abstract void Update(T entity);
 
         public abstract void Delete(T entity);
