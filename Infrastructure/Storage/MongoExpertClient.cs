@@ -12,5 +12,10 @@ namespace Infrastructure.Storage
             _client = new MongoClient(connectionString);
             _database = _client.GetDatabase(dbName);
         }
+
+        public IMongoCollection<T> Set<T>()
+        {
+            return _database.GetCollection<T>(typeof(T).Name);
+        }
     }
 }

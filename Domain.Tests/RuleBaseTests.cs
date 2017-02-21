@@ -21,7 +21,7 @@ namespace Domain.Tests
         public void AddRule_should_add_the_passed_rule_to_the_Rules_collection()
         {
             // arrange
-            var rule = new Rule();
+            var rule = new Rule(Guid.Empty);
 
             // act
             _ruleBase.AddRule(rule);
@@ -40,7 +40,7 @@ namespace Domain.Tests
         public void RemoveRule_should_remove_the_passed_rule_from_the_Rules_collection()
         {
             // arrange
-            var rule = new Rule();
+            var rule = new Rule(Guid.Empty);
             _ruleBase.AddRule(rule);
 
             // act
@@ -59,7 +59,7 @@ namespace Domain.Tests
         [Fact]
         public void RemoveRule_should_throw_if_the_passed_rule_is_not_in_the_Rules_collection()
         {
-            Assert.Throws<ArgumentException>(() => _ruleBase.RemoveRule(new Rule()));
+            Assert.Throws<ArgumentException>(() => _ruleBase.RemoveRule(new Rule(Guid.Empty)));
         }
 
     }

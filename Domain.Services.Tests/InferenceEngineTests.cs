@@ -241,7 +241,7 @@ namespace Domain.Services.Tests
 
             var ruleBase = new RuleBase.Builder().Build();
 
-            var rule = new Rule();
+            var rule = new Rule(Guid.Empty);
             var fact = new Fact() { Assertion = assertion };
             var precondition = new ContainsPrecondition.Builder()
                 .WithFact(fact)

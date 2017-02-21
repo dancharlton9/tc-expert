@@ -6,12 +6,12 @@ using Domain.Preconditions;
 
 namespace Domain
 {
-    public class Rule
+    public class Rule : Entity
     {
         public List<Precondition> Preconditions { get; private set; }
         public List<RuleAction> Actions { get; private set; }
 
-        public Rule()
+        public Rule(Guid id) : base(id)
         {
             Preconditions = new List<Precondition>();
             Actions = new List<RuleAction>();
@@ -59,7 +59,12 @@ namespace Domain
 
         public class Builder
         {
-            private readonly Rule _rule = new Rule();
+            private readonly Rule _rule = new Rule(Guid.Empty);
+
+            public Builder WithId(Guid id)
+            {
+                return this;
+            }
 
             public Rule Build()
             {

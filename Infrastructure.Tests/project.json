@@ -11,9 +11,18 @@
       "Domain": "1.0.0-*"
   },
   "testRunner": "xunit",
-  "frameworks": {
-    "netstandard1.6": {
-      "imports": "dnxcore50"
+    "frameworks": {
+        "netcoreapp1.0": {
+            "dependencies": {
+                "Microsoft.NETCore.App": {
+                    "type": "platform",
+                    "version": "1.0.0"
+                }
+            },
+            "imports": [
+                "dotnet5.4",
+                "portable-net451+win8"
+            ]
+        }
     }
-  }
 }
