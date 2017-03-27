@@ -9,6 +9,7 @@ namespace Domain.Services
         public List<Rule> Match(WorkingMemory workingMemory, RuleBase ruleBase)
         {
             var matchingRules = ruleBase.Rules
+                .Where(x => !x.Triggered)
                 .Where(rule => rule.EvaluatePreconditions(workingMemory.Facts))
                 .ToList();
 
