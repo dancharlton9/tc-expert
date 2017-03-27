@@ -17,13 +17,13 @@ namespace Domain.Tests
         public RuleTests()
         {
             _factory = new PreconditionFactory();
-            _rule = new Rule();
+            _rule = new Rule(Guid.Empty);
             _facts = GenerateFacts();
         }
 
         public void Dispose()
         {
-            _rule = new Rule();
+            _rule = new Rule(Guid.Empty);
         }
 
         [Fact]

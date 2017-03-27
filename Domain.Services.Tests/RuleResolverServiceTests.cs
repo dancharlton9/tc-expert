@@ -38,7 +38,7 @@ namespace Domain.Services.Tests
             var rules = new List<Rule>();
             for (var i = 0; i < 5; i++)
             {
-                rules.Add(new Rule());
+                rules.Add(new Rule(Guid.Empty));
             }
 
             // act
