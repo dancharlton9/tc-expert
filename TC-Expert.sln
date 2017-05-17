@@ -1,23 +1,23 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.0.0
-MinimumVisualStudioVersion = 10.0.0.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Domain", "Domain\Domain.xproj", "{0E006C03-5FFA-4A91-993A-634858B5C856}"
-EndProject
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.10
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{76FFD584-75AF-4FF6-A4B6-595DE151BB77}"
-EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Domain.Services", "Domain.Services\Domain.Services.xproj", "{890412F0-8256-420D-BA2E-C69F710FF495}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{E16B365D-2A84-4304-9C56-2530C8CC49B3}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Domain.Tests", "Domain.Tests\Domain.Tests.xproj", "{DD48E380-EF43-493A-AF72-52560B86EF26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{0E006C03-5FFA-4A91-993A-634858B5C856}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Domain.Services.Tests", "Domain.Services.Tests\Domain.Services.Tests.xproj", "{6322DB4D-8E9D-40CC-85B2-934315BDDB95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Services", "Domain.Services\Domain.Services.csproj", "{890412F0-8256-420D-BA2E-C69F710FF495}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Infrastructure", "Infrastructure\Infrastructure.xproj", "{65F1AD9E-0E14-4B5E-9106-C66DED228076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Tests", "Domain.Tests\Domain.Tests.csproj", "{DD48E380-EF43-493A-AF72-52560B86EF26}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Infrastructure.Tests", "Infrastructure.Tests\Infrastructure.Tests.xproj", "{5D829B9A-F443-4A5C-9058-EE6CF5E72D7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.Services.Tests", "Domain.Services.Tests\Domain.Services.Tests.csproj", "{6322DB4D-8E9D-40CC-85B2-934315BDDB95}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{65F1AD9E-0E14-4B5E-9106-C66DED228076}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Tests", "Infrastructure.Tests\Infrastructure.Tests.csproj", "{5D829B9A-F443-4A5C-9058-EE6CF5E72D7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

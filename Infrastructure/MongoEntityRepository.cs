@@ -24,30 +24,25 @@ namespace Infrastructure
             DefaultReadFilter = Builders<T>.Filter.Empty;
         }
 
+        public abstract T GetById(Guid id);
+
+        public IList<T> Get()
+        {
+            throw new NotImplementedException();
+        }
+
         public virtual void Add(T entity)
         {
             Inserts.Add(entity);
         }
 
-        public abstract void Delete(T entity);
-
-        public void SaveChanges()
-        {
-            throw new NotImplementedException();
-        }
-    }
-}
         public abstract void Update(T entity);
 
         public abstract void Delete(T entity);
 
         public virtual void SaveChanges()
         {
-            if (Inserts.Any())
-            {
-                Collection.InsertMany(Inserts);
-            }
-            Inserts.Clear();
+            throw new NotImplementedException();
         }
     }
 }
