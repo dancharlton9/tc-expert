@@ -28,7 +28,10 @@ namespace Infrastructure
 
         public IList<T> Get()
         {
-            throw new NotImplementedException();
+            var queryFilter = (DefaultReadFilter);
+            var items = Collection.Find(queryFilter)
+                .ToList();
+            return items;
         }
 
         public virtual void Add(T entity)
@@ -42,7 +45,9 @@ namespace Infrastructure
 
         public virtual void SaveChanges()
         {
-            throw new NotImplementedException();
+            if (Inserts.Any())
+                Collection.InsertMany(Inserts);
+            Inserts.Clear();
         }
     }
 }
